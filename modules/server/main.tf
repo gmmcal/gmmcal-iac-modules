@@ -26,9 +26,9 @@ resource "hcloud_firewall" "this" {
   }
 
   rule {
-    direction   = "in"
-    protocol    = "tcp"
-    port        = each.value.port
+    direction = "in"
+    protocol  = "tcp"
+    port      = each.value.port
     source_ips = [
       "0.0.0.0/0",
       "::/0"

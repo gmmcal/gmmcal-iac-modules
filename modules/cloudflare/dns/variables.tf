@@ -22,6 +22,6 @@ variable "allow_overwrite" {
 }
 
 variable "zone_id" {
-  type        = string
-  default     = "dfe972bed4d38c43a2652967cd649799"
+  type    = string
+  default = "dfe972bed4d38c43a2652967cd649799"
 }
