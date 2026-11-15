@@ -12,12 +12,12 @@ variable "plan" {
 
 variable "firewall_ports" {
   default = []
-  type    = list(object({
-    port         = string,
-    description  = string,
+  type = list(object({
+    port        = string,
+    description = string,
   }))
 }
 
 variable "labels" {
-  type = map
+  type = map(any)
 }
